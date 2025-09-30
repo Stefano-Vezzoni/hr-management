@@ -16,7 +16,10 @@ export default function Dashboard() {
         </Stack>
       </Grid>
 
-      <Grid size={3} sx={{ borderLeft: "1px solid", borderColor: "divider" }}>
+      <Grid
+        size={3}
+        sx={{ borderLeft: "1px solid", borderColor: "divider", p: 3 }}
+      >
         <Grid>
           <PayrollStatus />
         </Grid>
