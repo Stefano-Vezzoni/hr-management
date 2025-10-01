@@ -1,5 +1,5 @@
 import { Grid, Stack, Typography } from "@mui/material";
-import NavBar from "../../components/navbar/Navbar";
+import NavBar from "../../components/Navbar/Navbar";
 import PayrollStatus from "./components/PayrollStatus";
 
 export default function Dashboard() {

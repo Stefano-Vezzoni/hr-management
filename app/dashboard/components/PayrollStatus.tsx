@@ -7,7 +7,7 @@ import {
   TableBody,
   Box,
 } from "@mui/material";
-import StatusChip from "@/components/statusChip/StatusChip";
+import StatusChip from "@/components/StatusChip/StatusChip";
 
 export default function PayrollStatus() {
   return (

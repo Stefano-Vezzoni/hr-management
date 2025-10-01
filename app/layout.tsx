@@ -3,7 +3,7 @@ import { AppRouterCacheProvider } from "@mui/material-nextjs/v15-appRouter";
 import { ThemeProvider } from "@mui/material/styles";
 import CssBaseline from "@mui/material/CssBaseline";
 import { Inter, Montserrat } from "next/font/google";
-import theme from "./theme/theme";
+import theme from "../theme/theme";
 
 const inter = Inter({
   subsets: ["latin"],
