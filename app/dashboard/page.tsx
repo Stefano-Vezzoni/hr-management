@@ -1,6 +1,6 @@
 import { Grid, Stack, Typography } from "@mui/material";
 import NavBar from "../../components/Navbar/Navbar";
-import PayrollStatus from "./components/PayrollStatus";
+import PayrollDataTable from "./components/PayrollDataTable";
 
 export default function Dashboard() {
   return (
@@ -16,12 +16,9 @@ export default function Dashboard() {
         </Stack>
       </Grid>
 
-      <Grid
-        size={3}
-        sx={{ borderLeft: "1px solid", borderColor: "divider", p: 3 }}
-      >
+      <Grid size={3} sx={{ borderLeft: "1px solid", borderColor: "divider", p: 3 }}>
         <Grid>
-          <PayrollStatus />
+          <PayrollDataTable />
         </Grid>
 
         <Grid>
