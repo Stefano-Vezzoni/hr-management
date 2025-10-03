@@ -1,12 +1,12 @@
 "use client";
 
 import { IEmployeeTableData } from "@/app/api/payroll-data/route";
-import DataTableCard, { TableCellType } from "@/components/DataTableCard/DataTableCard";
+import DataTableCard, { ITableBodyRows } from "@/components/DataTableCard/DataTableCard";
 import { useState, useEffect } from "react";
 
 export default function PayrollDataTable() {
   const [tableHeadRows, setTableHeadRows] = useState<string[]>([]);
-  const [tableBodyRows, setTableBodyRows] = useState<Record<string, TableCellType>[]>([]);
+  const [tableBodyRows, setTableBodyRows] = useState<ITableBodyRows[]>([]);
 
   useEffect(() => {
     async function fetchEmployees() {
